@@ -1,0 +1,82 @@
+/* Mobile Devices */
+
+@media screen and (max-width: 600px) {
+
+    header {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header {
+        padding: 20px 0;
+    }
+
+    main {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .humburger {
+        display: block;
+    }
+
+    .menu-items {
+        display: none;
+    }
+
+    .hero {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .hero-title {
+        font-size: 1.375rem;
+    }
+
+    .hero-des {
+        font-size: 14px;
+        margin: 10px 0;
+        padding: 0 20px;
+    }
+
+    .hero-form {
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tour {
+        margin: 25px 0;
+        flex-direction: column;
+    }
+
+    .destination-container {
+        grid-template-areas:
+            "Maldives"
+            "Indonesia"
+            "Srilanka"
+            "North-America"
+            "Kashmir"
+            "Bangladesh"
+            "Bandarban"
+        ;
+
+    }
+
+
+    /* Tablets Devices */
+
+    @media screen and (min-width: 600px) and (max-width: 992px) {
+
+        header {
+            padding: 30px;
+        }
+
+        main {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+    }
