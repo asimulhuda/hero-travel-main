@@ -15,7 +15,7 @@ header {
     margin: 0 auto;
 }
 
-footer{
+footer {
     background-color: rgba(19, 19, 24, 0.05);
 }
 
@@ -518,4 +518,42 @@ iframe {
     width: 1170px;
     margin: 0 auto;
     padding: 110px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-top {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    ;
+}
+
+.footer-des {
+    width: 769px;
+    margin: 24px auto;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.copy-right {
+    margin-top: 50px;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
 }
