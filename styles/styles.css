@@ -28,7 +28,26 @@ main {
     color: #FFF;
     font-size: 1.25rem;
     font-weight: 800;
+    cursor: pointer;
 }
+
+.section-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-des {
+    width: 643px;
+    margin: 25px auto 50px auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 
 /* Header section styles */
 
@@ -182,22 +201,6 @@ li {
 
 /* Destination section styles */
 
-.destination-title {
-    color: #131318;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.destination-des {
-    width: 643px;
-    margin: 25px auto 50px auto;
-    color: rgba(19, 19, 24, 0.70);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-}
 
 .Maldives,
 .Indonesia,
@@ -275,4 +278,139 @@ li {
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
+}
+
+
+/* Services section styles */
+
+
+.service {
+    margin: 100px auto;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-container-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.service-box {
+    gap: 24px;
+    border-radius: 16px;
+    width: 573px;
+    padding: 32px 32px 55px 32px;
+}
+
+.color-piruza {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.color-blue {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.color-pink {
+    margin-top: 24px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.service-box-title {
+    margin: 20px 0;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.service-box-des {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/* Deal section styles */
+
+.deal-container {
+    padding: 56px;
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.deal-container-mid {
+    background-image: url('../Images/Group\ 40.png');
+    display: flex;
+    justify-content: flex-start;
+}
+
+.deal-box {
+    width: 579px;
+    padding: 50px 77px 50px 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+}
+
+.deal-counter {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.per-icon {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.per-icon h6 {
+    align-items: center;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.deal-box-title {
+    margin: 20px 0;
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.deal-box-des {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.deal-box-price {
+    margin: 20px 0;
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.deal-btn {
+    text-align: center;
+}
+
+
+/* Place section styles */
+
+.place {
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
 }
